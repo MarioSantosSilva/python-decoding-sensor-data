@@ -17,6 +17,4 @@ class ParticleData(HouseInfo):
         return self._convert_data(recs)
 
     def get_data_concentration(self, data):
-        particulate = [{"good": 0},
-                        {"moderate": 0},
-                        {"bad": 0}]
+        particulate = {"good": 0,"moderate": 0, "bad": 0}
